@@ -8,3 +8,12 @@ dataset_ref = client.dataset("chicago_crime", project="bigquery-public-data")
 
 # API request - fetch the dataset
 dataset = client.get_dataset(dataset_ref)
+
+#q1
+# Count tables in the dataset
+tables = list(client.list_tables(dataset))
+cont_tables = 0
+for table in tables:
+    cont_tables = cont_tables + 1
+print(cont_tables)
+
