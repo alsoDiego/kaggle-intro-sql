@@ -23,3 +23,6 @@ table_ref = dataset_ref.table("crime") # reference to the crime table
 table = client.get_table(table_ref)
 table.schema
 
+#q3
+# If you wanted to create a map with a dot at the location of each crime, what are the names of the two fields you likely need to pull out of the crime table to plot the crimes on a map?
+fields_for_plotting = ['x_coordinate', 'y_coordinate'] # fields for plotting
