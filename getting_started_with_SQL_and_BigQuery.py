@@ -17,3 +17,9 @@ for table in tables:
     cont_tables = cont_tables + 1
 print(cont_tables)
 
+#q2
+# How many columns in the crime table have TIMESTAMP data?
+table_ref = dataset_ref.table("crime") # reference to the crime table
+table = client.get_table(table_ref)
+table.schema
+
