@@ -2,4 +2,4 @@
 
 ## Learn Data Science Tutorials 🐍
 
-Kaggle: <https://www.kaggle.com/learn/python>
+Kaggle: <https://www.kaggle.com/learn>
